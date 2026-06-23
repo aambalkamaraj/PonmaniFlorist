@@ -1,5 +1,413 @@
-<html>
-<title>Ponmani Florist</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Ponmani Florist | Traditional Indian Flowers, Garlands & Decor — Cary, NC</title>
+    <meta name="description" content="Ponmani Florist offers the highest quality, freshest Indian flowers, customized wedding garlands (Kalyana Malai), housewarming decors, and temple flower services in Cary, NC and the Triangle area.">
+    <meta name="keywords" content="Indian florist Cary NC, wedding garlands Raleigh, housewarming flowers, jasmine strings NC, pooja flowers Cary, temple flower decorations, Ponmani Florist, Triangle NC florist">
+    <meta name="author" content="Ponmani Florist">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ponmani Florist | Traditional Indian Flowers, Garlands & Decor">
+    <meta property="og:description" content="Premium South Asian flowers, custom garlands, housewarming arrangements, and pooja essentials in Cary, NC.">
+    <meta property="og:image" content="assets/hero_bg.png">
+    <meta property="og:url" content="https://ponmaniflorist.com">
+    <meta property="og:type" content="website">
+
+    <!-- FontAwesome & Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<div align="center"><img src="Fullscreen.png" alt="Ponmani Florist"></div></body>
-</Html>
+
+    <!-- Header Navigation -->
+    <header id="main-header">
+        <div class="container nav-container">
+            <a href="#" class="logo-link" id="logo-top">
+                <div class="logo-icon">
+                    <img src="assets/logo.png" alt="Ponmani Florist Logo">
+                </div>
+                <div class="logo-text">
+                    <strong>Ponmani Florist</strong>
+                    <span>Flowers & Foods</span>
+                </div>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#consultation">Inquire & Book</a></li>
+                </ul>
+            </nav>
+
+            <a href="tel:9195265070" class="nav-phone">
+                <i class="fa-solid fa-phone"></i>
+                <span>(919) 526-5070</span>
+            </a>
+
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container hero-layout">
+            <div class="hero-content">
+                <span class="hero-eyebrow">Freshness & Tradition</span>
+                <h1 class="hero-title">Sacred Blooms & <em>Custom Garlands</em> for Your Special Days</h1>
+                <p class="hero-desc">Bringing authentic Indian flowers, jasmine strings, custom wedding garlands, and exquisite ceremonial decor to Cary, NC and the Triangle area. Handcrafted with devotion, delivered fresh.</p>
+                <div class="hero-actions">
+                    <a href="#consultation" class="btn btn-primary">Book Consultation</a>
+                    <a href="#services" class="btn btn-outline-white">Explore Services</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-img-wrapper">
+                    <img src="assets/hero_bg.png" alt="Traditional Indian Flower Garlands and Jasmine Strings">
+                </div>
+                <div class="hero-floating-badge">
+                    <i class="fa-solid fa-certificate"></i>
+                    <div>
+                        <p>100% Fresh Flowers</p>
+                        <span>Imported & Handcrafted locally</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="label-gold">Our Offerings</span>
+                <h2 class="section-title">Designed for Your <em>Auspicious Occasions</em></h2>
+                <p class="section-desc">We offer a wide selection of traditional South Asian flowers, strings, customizable wedding garlands, and comprehensive styling for temples and homes.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <article class="service-card" data-service="flowers">
+                    <div class="service-img-container">
+                        <img src="assets/flowers_strings.png" alt="Indian Flowers and Strings - Jasmine, Mullai, Marigolds">
+                        <span class="service-tag">Pooja Essentials</span>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-card-title">Indian Flowers & Strings</h3>
+                        <p class="service-card-desc">Enhance your spiritual rituals with our selection of fresh marigolds, roses, sacred lotus, and fragrant Jasmine or Mullai strings. Complete your prayers with high-quality, authentic pooja items.</p>
+                        <div class="service-card-footer">
+                            <div class="service-price-info">
+                                <span>Fresh loose flowers</span>
+                                <strong>Inquire for Pricing</strong>
+                            </div>
+                            <span class="service-learn-more">Details <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Service 2 -->
+                <article class="service-card" data-service="housewarming">
+                    <div class="service-img-container">
+                        <img src="assets/housewarming.png" alt="Housewarming Flower Arrangement - Entrance Garlands & Decor">
+                        <span class="service-tag">Home Decor</span>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-card-title">Housewarming Decor</h3>
+                        <p class="service-card-desc">Welcome warmth, prosperity, and joy into your new home (Grahapravesam) with our cheerful and vibrant entrance decors, mango leaves strings, and traditional arrangements.</p>
+                        <div class="service-card-footer">
+                            <div class="service-price-info">
+                                <span>Custom entry setup</span>
+                                <strong>Custom Booking</strong>
+                            </div>
+                            <span class="service-learn-more">Details <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Service 3 -->
+                <article class="service-card" data-service="wedding">
+                    <div class="service-img-container">
+                        <img src="assets/wedding_garlands.png" alt="Wedding Garlands - Custom Indian Marriage Malai">
+                        <span class="service-tag">Bridal & Event</span>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-card-title">Wedding Garlands</h3>
+                        <p class="service-card-desc">Make your wedding day unforgettable with custom-designed marriage garlands (Kalyana Malai). Handcrafted from premium roses, jasmine, and marigolds to symbolize love and prosperity.</p>
+                        <div class="service-card-footer">
+                            <div class="service-price-info">
+                                <span>Pair of custom garlands</span>
+                                <strong>Custom Crafted</strong>
+                            </div>
+                            <span class="service-learn-more">Details <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Service 4 -->
+                <article class="service-card" data-service="temple">
+                    <div class="service-img-container">
+                        <img src="assets/temple_services.png" alt="Temple Services - deity decoration & temple garlands">
+                        <span class="service-tag">Sacred Services</span>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-card-title">Temple Flower Services</h3>
+                        <p class="service-card-desc">A tradition of devotion. We supply meticulously prepared garlands, fresh loose petals, and comprehensive flower arrangements to local temples and spiritual celebrations with absolute care.</p>
+                        <div class="service-card-footer">
+                            <div class="service-price-info">
+                                <span>Festival & Deity garlands</span>
+                                <strong>Contract & Booking</strong>
+                            </div>
+                            <span class="service-learn-more">Details <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container about-layout">
+            <div class="about-visual">
+                <div class="about-img-box">
+                    <img src="assets/about_florist.png" alt="Florist hands weaving traditional marigold garland close-up">
+                </div>
+                <div class="about-experience-badge">
+                    <strong>100%</strong>
+                    <span>Authentic</span>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <span class="label-gold">Our Philosophy</span>
+                <h2 class="section-title about-title">Preserving Tradition through <em>Authentic Blooms</em></h2>
+                <div class="about-text">
+                    <p>At <strong>Ponmani Florist</strong>, we take pride in delivering the highest quality, freshest Indian flowers. We specialize in custom-designed wedding garlands, beautiful jasmine and mullai strings, and vibrant decorations for housewarmings and festivals.</p>
+                    <p>In addition to our beautiful flowers, we provide an extensive array of pooja essentials (diyas, premium incense, kumkum, deity idols, and pure sandalwood paste) ensuring your home and temple rituals are authentic and serene.</p>
+                    <p>Whether you're organizing a grand wedding celebration, preparing for a home Grahapravesam, or planning a simple daily prayer, we are dedicated to bringing beauty, grace, and tradition straight to your doorstep.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="about-highlight-item">
+                        <i class="fa-solid fa-leaf"></i>
+                        <div class="about-highlight-text">
+                            <h4>Peak Freshness</h4>
+                            <p>Hand-picked flowers kept in temperature-controlled systems.</p>
+                        </div>
+                    </div>
+                    <div class="about-highlight-item">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <div class="about-highlight-text">
+                            <h4>Custom Artistry</h4>
+                            <p>Every garland tailored to your design, length, and color scheme.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation & Booking Form Section -->
+    <section id="consultation" class="section">
+        <div class="container">
+            <div class="consultation-layout">
+                <!-- Info Column -->
+                <div class="consultation-info">
+                    <div class="consultation-info-header">
+                        <h3>Book a Floral Consultation</h3>
+                        <p>Let us help you bring colors and tradition to your upcoming event. Fill out our simple inquiry form, and our florist designer will contact you shortly.</p>
+                    </div>
+
+                    <div class="consultation-channels">
+                        <div class="consultation-channel-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="consultation-channel-text">
+                                <p>Call or Text Us</p>
+                                <a href="tel:9195265070">(919) 526-5070</a>
+                                <a href="tel:6788491343">(678) 849-1343</a>
+                            </div>
+                        </div>
+
+                        <div class="consultation-channel-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="consultation-channel-text">
+                                <p>Email Us</p>
+                                <a href="mailto:contact@ponmaniflorist.com">contact@ponmaniflorist.com</a>
+                            </div>
+                        </div>
+
+                        <div class="consultation-channel-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="consultation-channel-text">
+                                <p>Visit Location</p>
+                                <span>1520 Scenic Club Dr,<br>Cary, NC 27519</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="consultation-info-footer">
+                        <h5>Business Hours</h5>
+                        <p>Open daily for orders and consultation: 8:00 AM - 8:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="consultation-form-wrapper">
+                    <form class="consultation-form" id="event-inquiry-form">
+                        <div class="form-group">
+                            <label for="user-name">Your Name *</label>
+                            <input type="text" id="user-name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-phone">Phone Number *</label>
+                            <input type="tel" id="user-phone" name="phone" placeholder="(123) 456-7890" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-email">Email Address</label>
+                            <input type="email" id="user-email" name="email" placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="event-type">Event / Order Type *</label>
+                            <select id="event-type" name="eventType" required>
+                                <option value="" disabled selected>Select event category...</option>
+                                <option value="wedding">Wedding Garlands (Kalyana Malai)</option>
+                                <option value="housewarming">Housewarming Entrance Decor</option>
+                                <option value="pooja">Indian Flowers & Pooja Essentials</option>
+                                <option value="temple">Temple Services & Deity Garlands</option>
+                                <option value="other">Other Customs / Catering Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="event-date">Required Date *</label>
+                            <input type="date" id="event-date" name="eventDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="flowers-needed">Special Flowers Requested</label>
+                            <select id="flowers-needed" name="flowerRequest">
+                                <option value="any">Standard Mix (Rose, Marigold, Carnation)</option>
+                                <option value="jasmine">Jasmine & Mullai strings</option>
+                                <option value="lotus">Sacred Lotus</option>
+                                <option value="marigold">Traditional Marigolds only</option>
+                                <option value="custom">Custom combination (detail below)</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-group-full">
+                            <label for="message">Describe Your Requirements *</label>
+                            <textarea id="message" name="message" placeholder="Provide details like garland design, length, home entrance measurements, or specific types of flowers needed..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary form-submit-btn">Send Inquiry Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-column footer-about">
+                <a href="#" class="logo-link">
+                    <div class="logo-icon">
+                        <img src="assets/logo.png" alt="Ponmani Florist Logo">
+                    </div>
+                    <div class="logo-text">
+                        <strong>Ponmani Florist</strong>
+                        <span style="color: var(--marigold-light);">Flowers & Foods</span>
+                    </div>
+                </a>
+                <p class="footer-about-text">Premium South Asian florist offering fresh traditional flowers, wedding garlands, and ceremony decors locally handcrafted in Cary, North Carolina.</p>
+                <div class="footer-socials">
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook Page"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://whatsapp.com" target="_blank" aria-label="WhatsApp Business Link"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>Quick Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#consultation">Inquire & Book</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Our Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#services">Jasmine & Pooja Flowers</a></li>
+                    <li><a href="#services">Custom Wedding Garlands</a></li>
+                    <li><a href="#services">Housewarming Entry Decor</a></li>
+                    <li><a href="#services">Temple Altar Garlands</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contact Details</h4>
+                <ul class="footer-info-list">
+                    <li class="footer-info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>1520 Scenic Club Dr,<br>Cary, NC 27519</span>
+                    </li>
+                    <li class="footer-info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            (919) 526-5070<br>
+                            (678) 849-1343
+                        </span>
+                    </li>
+                    <li class="footer-info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>contact@ponmaniflorist.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Ponmani Florist. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Service Detail Modals -->
+    <div class="modal-overlay" id="service-modal-overlay">
+        <div class="modal-card">
+            <button class="modal-close" id="modal-close-btn" aria-label="Close details window">&times;</button>
+            <div class="modal-img-wrapper">
+                <img id="modal-img" src="" alt="Service image">
+            </div>
+            <div class="modal-body">
+                <h3 class="modal-title" id="modal-title">Service Title</h3>
+                <div class="modal-price" id="modal-price">Pricing Mode</div>
+                <div class="modal-text" id="modal-text">Service description details go here.</div>
+                <div class="modal-actions">
+                    <a href="#consultation" class="btn btn-secondary" id="modal-cta-btn">Book or Inquire</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div class="toast-notification success" id="form-toast">
+        <i class="fa-regular fa-circle-check"></i>
+        <span class="toast-text" id="toast-message">Your inquiry has been sent successfully!</span>
+    </div>
+
+    <!-- Interactive script -->
+    <script src="script.js"></script>
+</body>
+</html>
